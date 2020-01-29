@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HRM.Entity\HRM.Entity.csproj" />
+    <ProjectReference Include="..\HRM.Persistence\HRM.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>

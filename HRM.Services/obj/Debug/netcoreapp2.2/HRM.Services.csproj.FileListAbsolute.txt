@@ -1,0 +1,13 @@
+F:\Exceptions\HRM.Services\bin\Debug\netcoreapp2.2\HRM.Services.deps.json
+F:\Exceptions\HRM.Services\bin\Debug\netcoreapp2.2\HRM.Services.dll
+F:\Exceptions\HRM.Services\bin\Debug\netcoreapp2.2\HRM.Services.pdb
+F:\Exceptions\HRM.Services\bin\Debug\netcoreapp2.2\HRM.Entity.dll
+F:\Exceptions\HRM.Services\bin\Debug\netcoreapp2.2\HRM.Persistence.dll
+F:\Exceptions\HRM.Services\bin\Debug\netcoreapp2.2\HRM.Entity.pdb
+F:\Exceptions\HRM.Services\bin\Debug\netcoreapp2.2\HRM.Persistence.pdb
+F:\Exceptions\HRM.Services\obj\Debug\netcoreapp2.2\HRM.Services.csprojAssemblyReference.cache
+F:\Exceptions\HRM.Services\obj\Debug\netcoreapp2.2\HRM.Services.AssemblyInfoInputs.cache
+F:\Exceptions\HRM.Services\obj\Debug\netcoreapp2.2\HRM.Services.AssemblyInfo.cs
+F:\Exceptions\HRM.Services\obj\Debug\netcoreapp2.2\HRM.Services.csproj.CopyComplete
+F:\Exceptions\HRM.Services\obj\Debug\netcoreapp2.2\HRM.Services.dll
+F:\Exceptions\HRM.Services\obj\Debug\netcoreapp2.2\HRM.Services.pdb

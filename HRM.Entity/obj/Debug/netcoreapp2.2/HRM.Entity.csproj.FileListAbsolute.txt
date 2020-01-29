@@ -1,0 +1,8 @@
+F:\Exceptions\HRM.Entity\bin\Debug\netcoreapp2.2\HRM.Entity.deps.json
+F:\Exceptions\HRM.Entity\bin\Debug\netcoreapp2.2\HRM.Entity.dll
+F:\Exceptions\HRM.Entity\bin\Debug\netcoreapp2.2\HRM.Entity.pdb
+F:\Exceptions\HRM.Entity\obj\Debug\netcoreapp2.2\HRM.Entity.AssemblyInfoInputs.cache
+F:\Exceptions\HRM.Entity\obj\Debug\netcoreapp2.2\HRM.Entity.AssemblyInfo.cs
+F:\Exceptions\HRM.Entity\obj\Debug\netcoreapp2.2\HRM.Entity.dll
+F:\Exceptions\HRM.Entity\obj\Debug\netcoreapp2.2\HRM.Entity.pdb
+F:\Exceptions\HRM.Entity\obj\Debug\netcoreapp2.2\HRM.Entity.csprojAssemblyReference.cache
