@@ -14,6 +14,8 @@ using HRM.Persistence;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using HRM.Data;
+using HRM.Services;
+using HRM.Services.Implementation;
 
 namespace HRM
 {
@@ -42,7 +44,7 @@ namespace HRM
             services.AddDefaultIdentity<IdentityUser>()
                 .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-
+            services.AddScoped<IEmployeeService, EmployeeService>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 

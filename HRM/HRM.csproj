@@ -19,4 +19,9 @@
     <ProjectReference Include="..\HRM.Services\HRM.Services.csproj" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\employee\" />
+  </ItemGroup>
+
 </Project>
