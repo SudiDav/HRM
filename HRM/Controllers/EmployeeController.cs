@@ -170,5 +170,61 @@ namespace HRM.Controllers
             }
             return View();
         }
+
+        public IActionResult Detail(int id)
+        {
+            var employee = _employee.GetById(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            EmployeeDetailViewModel model = new EmployeeDetailViewModel()
+            {
+                Id = employee.Id,
+                EmployeeNo = employee.EmployeeNo,
+                FullName = employee.FullName,
+                Gender = employee.Gender,
+                DOB = employee.DOB,
+                DateJoined = employee.DateJoined,
+                Phone = employee.Phone,
+                Designation = employee.Designation,
+                Email = employee.Email,
+                NationalInsuranceNo = employee.NationalInsuranceNo,
+                PayementMethod = employee.PayementMethod,
+                StudentLoan = employee.StudentLoan,
+                UnionMember = employee.UnionMember,
+                Address = employee.Address,
+                City = employee.City,
+                PostCode = employee.PostCode,
+                ImageUrl = employee.ImageUrl
+            };
+            return View(model);
+        }
+
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var employee = _employee.GetById(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            var model = new EmployeeDeleteViewModel
+            {
+                Id = employee.Id,
+                FullName = employee.FullName
+            };
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(EmployeeEditViewModel model)
+        {
+            await _employee.Delete(model.Id);
+            return RedirectToAction(nameof(Index));
+        }
+
+
     }
 }
