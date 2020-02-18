@@ -8,16 +8,16 @@ namespace HRM.Models
     public class EmployeeEditViewModel
     {
         public int Id { get; set; }
-        [Required(ErrorMessage = "Employee Number is required"),
-         RegularExpression(@"^[A-Z] {3,3} [0-9] {3}$")]
+        [Required(ErrorMessage = "Employee Number is required")]
+        //RegularExpression(@"^[A-Z] {3,3} [0-9] {3}$")
         public string EmployeeNo { get; set; }
-        [Required(ErrorMessage = "First Name is required"), StringLength(50, MinimumLength = 2),
-        RegularExpression(@"^[A-Z] [a-zA-Z""'\s=]*$"), Display(Name = "First Name")]
+        [Required(ErrorMessage = "First Name is required"), StringLength(50, MinimumLength = 2)]
+        //RegularExpression(@"^[A-Z] [a-zA-Z""'\s=]*$"), Display(Name = "First Name")]
         public string FirstName { get; set; }
         [StringLength(50), Display(Name = "Middle Name")]
         public string MiddleName { get; set; }
-        [Required(ErrorMessage = "First Name is required"), StringLength(50, MinimumLength = 2),
-        RegularExpression(@"^[A-Z] [a-zA-Z""'\s=]*$"), Display(Name = "Last Name")]
+        [Required(ErrorMessage = "First Name is required"), StringLength(50, MinimumLength = 2)]
+        //RegularExpression(@"^[A-Z] [a-zA-Z""'\s=]*$"), Display(Name = "Last Name")
         public string LastNeme { get; set; }        
         public string Gender { get; set; }
         [Display(Name = "Photo")]
@@ -32,7 +32,7 @@ namespace HRM.Models
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
         [Required, StringLength(50), Display(Name = "National Insurance No")]
-        [RegularExpression(@"^[A-CEGHJ-PR-TW-Z] {1} [A-CEGHJ-PR-TW-Z] {1} [0-9] {6} [A-D\s]$")]
+        //[RegularExpression(@"^[A-CEGHJ-PR-TW-Z] {1} [A-CEGHJ-PR-TW-Z] {1} [0-9] {6} [A-D\s]$")]
         public string NationalInsuranceNo { get; set; }
         [Display(Name = "Payment Method")]
         public PayementMethod PayementMethod { get; set; }

@@ -4751,7 +4751,8 @@
         "framework": ".NETCoreApp,Version=v2.2",
         "dependencies": {
           "HRM.Entity": "1.0.0",
-          "HRM.Persistence": "1.0.0"
+          "HRM.Persistence": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0"
         },
         "compile": {
           "bin/placeholder/HRM.Services.dll": {}
@@ -13084,7 +13085,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -80,3 +80,7 @@ F:\Exceptions\HRM\HRM\obj\Debug\netcoreapp2.2\HRM.dll
 F:\Exceptions\HRM\HRM\obj\Debug\netcoreapp2.2\HRM.pdb
 F:\Exceptions\HRM\HRM\bin\Debug\netcoreapp2.2\libman.json
 F:\Exceptions\HRM\HRM\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Index.cshtml.g.cs
+F:\Exceptions\HRM\HRM\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Create.cshtml.g.cs
+F:\Exceptions\HRM\HRM\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Edit.cshtml.g.cs
+F:\Exceptions\HRM\HRM\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Detail.cshtml.g.cs
+F:\Exceptions\HRM\HRM\obj\Debug\netcoreapp2.2\Razor\Views\Employee\Delete.cshtml.g.cs
