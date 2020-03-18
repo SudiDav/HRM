@@ -565,7 +565,8 @@
       "HRM.Services/1.0.0": {
         "dependencies": {
           "HRM.Entity": "1.0.0",
-          "HRM.Persistence": "1.0.0"
+          "HRM.Persistence": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0"
         },
         "runtime": {
           "HRM.Services.dll": {}
